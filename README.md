@@ -1,2 +1,55 @@
 # shelmith00.ERROR-
-file:///C:/Users/Shelly/OneDrive/Desktop/F&Backend/index.html
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Medical Appointment System</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">CONTACT</a></li>
+                </ul>
+            </div>
+        </nav>
+    </section>
+    <div class="text-box">
+        <h1>NEXTGEN HOSPITAL</h1>
+        <form id class="appointmentForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" required>
+            <br>
+            <br>
+            <br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" required>
+            <br>
+            <br>
+            <br>
+            <label for="date">Date:</label>
+            <input type="date" id="date" required>
+            <br>
+            <br>
+            <br>
+            <label for="time">Time:</label>
+            <input type="time" id="time" required>
+            <br>
+            <br>
+            <br>
+          </form>
+        </div>
+ <!------Call To Action------->
+ <section class="cta">
+    <h1>BOOK US UP</h1>
+    <a href="" class="hero-btn">BOOK APPOINTMENT</a>
+</section>
+  <script src="script.js"></script>
+<a href="" class="hero-btn">BOOK APPOINTMENT</a>
+</div>
+  <div id class="appointmentList"></div>
+</body>
+</html>
